@@ -1,0 +1,52 @@
+:root:has( .dark-mode input:checked){
+
+    --primary-hue:35;
+    --primary-saturation:72%;
+    --primary-lightness:44%;
+    
+    --color-primary:hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-lightness)
+    );
+    --color-light:#171717;
+    --color-secondery:#37373f;
+    --color-primary:#D78C23;
+    --color-third:#7f7f90;
+    --color-default:white;
+    --color-active:white;
+    --bg-nav:#171717;
+    --color-gray: #252525;
+    --color-contact:#0D0D0D;
+   --color-hover:#e8a63c;
+
+
+}
+
+
+body:has( .dark-mode input:checked) 
+{
+
+    background-color: #202020;
+}
+
+
+
+
+
+ body:has( .dark-mode input:checked) {
+
+.card picture::before {   
+
+
+    content: "";
+    width: 200%;
+    height: 3.75rem;
+    position: absolute;
+    bottom: -0.3125rem;
+
+    right: 0;
+    background-image: url(../images/team-shape-dark.svg);
+    background-repeat: repeat-x;
+ }
+}

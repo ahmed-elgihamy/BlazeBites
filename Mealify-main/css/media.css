@@ -1,0 +1,425 @@
+
+:root {
+    font-size: .875rem;
+    
+}
+
+
+/* ==================================== conainer====================================== */
+
+ @media screen and (min-width: 1400px){
+
+    .container{
+
+        max-width: 1320px;
+    }
+
+}
+    
+ @media screen and (max-width:1400px){
+
+    .container{
+
+        max-width: 1140px;
+    }
+
+}
+
+ @media screen and (max-width:1200px){
+
+    .container{
+
+        max-width: 960px;
+    }
+
+} 
+
+@media screen and (max-width:992px){
+
+    .container{
+
+        max-width: 720px;
+    }
+
+}
+@media screen and (max-width:768px){
+
+    .container{
+
+        max-width: 540px;
+    }
+
+}
+
+
+@media screen and (max-width:576px){
+
+.container{
+
+    padding-inline:15px ;
+}
+
+} 
+
+
+
+
+
+/* <!-- =========================================H E A D E R====================================================  --> */
+
+@media screen and (min-width: 1200px){
+
+   header  {
+
+        min-height: 100vh;
+    }
+
+}
+
+@media screen and (max-width: 978px){
+
+    
+        header .container {
+            
+            justify-content: center;
+            flex-direction: column-reverse;
+        
+         
+    }
+
+    header .container>* {
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+    }
+  
+    
+   .btn-main {
+    --border-radius: 100vh;
+   }
+
+}
+
+@media screen and (max-width: 400px){
+
+
+
+    .btn{
+
+        flex-direction: column;
+         
+    }
+
+    .botton-header{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+
+
+    header .container .header-content{
+
+
+        margin-top:30px ;
+    }
+}
+
+    /* =============================================S T A R T      N A V B A R===================================================  */
+
+
+
+
+@media screen and (max-width: 1200px){
+
+
+    .menu{
+        display: block;
+    }
+
+     nav ul {
+
+         /* display: none;  */
+         position: absolute;
+        background-color: white;
+        flex-direction: column;
+
+ 
+        width: 350px;
+        top: 0;
+        right: 0; 
+        gap: 0;
+        height: 100%;
+        transform: translateX(180%);
+
+     
+    } 
+    nav ul li a{
+
+        padding-block: 20px;
+        padding-inline: 10px;
+        font-weight: 950;
+    }
+
+    nav ul .mt{
+
+        margin-top: 50px;
+    }
+    .close-icon{
+
+        right: 0;
+        position: absolute;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+        display: block;
+        z-index: 999;
+    }
+
+    .dark-mode{
+
+        right: 0;
+        margin-left: auto;
+        margin-right: 30px;
+        font-weight: 100;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- =========================================C H E F S====================================================  --> */
+
+
+@media screen and (max-width: 992px){
+
+
+
+    .chefs-cards .card {
+
+        width: calc(calc(100% - var(--gap))/ 2);
+    }
+}
+
+@media screen and (max-width: 768px){
+
+
+
+    .chefs-cards .card {
+
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* <!-- ========================================= G A L L E R Y====================================================  --> */
+
+
+
+@media screen and (max-width: 992px){
+
+
+    .gallery-images picture{
+
+        width: calc(calc(100% - var(--gap))/2);
+      
+      
+       }
+
+       .gallery-images{
+
+    
+           height: 1472px;
+         }
+         .gallery-images .pizza{
+
+            order: 1;
+         }
+         .gallery-images .Levitation-pizza{
+
+            order: 3;
+
+         }
+
+         .gallery-images .Beef-steaks{
+
+            order: 5;
+
+         }
+         .gallery-images .Frittata{
+
+            order: 4;
+
+         }
+
+         .gallery-images .Burger{
+
+            order: 2;
+
+         }
+
+         .gallery-images .Crispy-Fried-Chicken{
+            order: 6;
+
+
+         }
+
+         .gallery-images .Lyulya-keba{
+
+            order: 7;
+
+         }
+
+
+      
+        
+}
+
+
+@media screen and (max-width: 755px){
+
+
+    .gallery-images picture{
+
+        width: 100%;
+      
+       }
+       .gallery-images{
+
+      
+       height: auto;
+       }
+
+
+}
+
+
+
+
+
+/* <!-- ========================================= C O N T A N T====================================================  --> */
+
+
+@media screen and (max-width: 986px){
+
+
+    .content-contect .group-input input{
+
+        width: 100%
+     }
+}
+
+
+@media screen and (max-width: 750px){
+
+
+    .contact-us>div {
+
+        width: 100%
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- =========================================  F O O T E R====================================================  --> */
+
+@media screen and (max-width: 1200px){
+
+
+    footer :is(.left-section , .right-section){
+
+        width: calc(calc(100% - var(--gap)) / 2);
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    footer :is(.middle-section ){
+
+        width:100%;
+        order: 2;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 750px){
+
+
+    footer :is(.left-section , .right-section){
+
+        width:100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    footer :is(.middle-section ){
+
+        width:100%;
+        order: 2;
+    }
+
+    footer :is( .right-section){
+
+        width:100%;
+        order: 3;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 570px){
+
+
+    footer .middle-section .inputs-middle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .middle-section .inputs-middle button{
+
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+}
+
+}
