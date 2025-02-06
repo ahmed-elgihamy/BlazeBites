@@ -16,7 +16,7 @@ BlazeBites is a modern, responsive, and elegant restaurant landing page designed
 
 
 ## Deployment
-This project is deployed at [BlazeBites Live Website](https://github.com/ahmed-elgihamy/BlazeBites).
+This project is deployed at [BlazeBites Live Website](https://restaurant-pi-weld.vercel.app/).
 
 ## Contact Information
 If you have any questions or suggestions :
